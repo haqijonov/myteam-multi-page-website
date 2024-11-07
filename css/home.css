@@ -1,0 +1,345 @@
+.home {
+  background: url(../img/home-content-left.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-color: var(--midnight-green);
+}
+.home-conrainer {
+  background: url(../img/home-content-bottom.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 83px;
+  padding-bottom: 129px;
+}
+.hamburger {
+  display: none;
+}
+.navbar-header {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.link {
+  color: var(--white);
+  font-size: 18px;
+}
+.navbar-header__link-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link:hover {
+  color: var(--light-coral);
+}
+.btn:hover {
+  background-color: var(--white);
+  color: var(--dark-green);
+  cursor: pointer;
+}
+/* home content */
+
+.home-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 250px;
+}
+.home-content__left {
+  max-width: 635px;
+}
+.home-content__left_title {
+  font-size: var(--large-h1);
+  color: var(--white);
+}
+.home-content__left_title span {
+  color: var(--light-coral);
+}
+.home-content__right {
+  max-width: 427px;
+}
+.home-content__right__item {
+  width: 50px;
+  height: 2px;
+  background-color: var(--rapture-blue);
+  margin-bottom: 79px;
+}
+.home-content__right_text {
+  color: var(--white);
+  font-size: 18px;
+}
+
+/* home servisec */
+.home-service {
+  background: url(../img/home-services-main-svg.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: var(--sacramento-state-green);
+}
+.home-service__container {
+  display: flex;
+  gap: 70px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.home-service__border {
+  width: 50px;
+  height: 4px;
+  background-color: var(--light-coral);
+  margin-bottom: 54px;
+}
+.home-service__paragrph {
+  max-width: 435px;
+  color: var(--white);
+  font-size: var(--large-h2);
+}
+.home-service__container__crds {
+  padding-top: 58px;
+  max-width: 545px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.home-service__container__crds__card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.home-service__container__crds__card-content__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--light-coral);
+  margin-bottom: 16px;
+}
+.home-service__container__crds__card-content__subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1.6;
+}
+
+/* media */
+
+@media (max-width: 768px) {
+  .home {
+    background: none;
+    background-color: var(--midnight-green);
+  }
+  .home-conrainer {
+    background: url(../img/home-content-bottom.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 112px;
+  }
+  .navbar-header {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  .container {
+    max-width: 589px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .hamburger {
+    display: none;
+  }
+  /* home-content */
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 256px;
+  }
+  .home-content__left {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .home-content__left_title {
+    text-align: center;
+    font-size: var(--small-h1);
+    color: var(--white);
+  }
+  .home-content__left_title span {
+    color: var(--light-coral);
+  }
+  .home-content__right {
+    max-width: 435px;
+    margin: auto;
+  }
+  .home-content__right__item {
+    display: none;
+  }
+  .home-content__right_text {
+    text-align: center;
+    color: var(--white);
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  /* home-service */
+  .home-service {
+    background: url(../img/home-services-main-svg.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: var(--sacramento-state-green);
+  }
+  .home-service__container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .home-service__border {
+    width: 50px;
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-bottom: 32px;
+  }
+  .home-service__paragrph {
+    max-width: 445px;
+    color: var(--white);
+    font-size: 32px;
+  }
+  .home-service__container__crds {
+    padding-top: 58px;
+    max-width: 573px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+@media (max-width: 668px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .btn {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+  }
+  .hamburger span {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--white);
+  }
+  .link {
+    display: none;
+  }
+  /* home-content */
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 18px;
+    padding-bottom: 197px;
+  }
+  .home-content__left {
+    max-width: 237px;
+    margin: auto;
+  }
+
+  .home-content__left_title {
+    text-align: center;
+    font-size: 40px;
+    color: var(--white);
+  }
+  .home-content__left_title span {
+    color: var(--light-coral);
+  }
+  .home-content__right {
+    max-width: 327px;
+    margin: auto;
+  }
+  .home-content__right__item {
+    display: none;
+  }
+  .home-content__right_text {
+    text-align: center;
+    color: var(--white);
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  /* home service */
+  .home-service {
+    background: url(../img/home-services-main-svg.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: var(--sacramento-state-green);
+  }
+  .home-service__container {
+    display: flex;
+    gap: 56px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .home-service__border {
+    width: 50px;
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-bottom: 32px;
+  }
+  .home-service__paragrph {
+    max-width: 240px;
+    color: var(--white);
+    font-size: 32px;
+  }
+  .home-service__container__crds {
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .home-service__container__crds__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 22px;
+  }
+  .home-service__container__crds__card-content__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--light-coral);
+    margin-bottom: 16px;
+  }
+  .home-service__container__crds__card-content__subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.6;
+  }
+}

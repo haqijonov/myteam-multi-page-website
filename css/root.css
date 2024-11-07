@@ -1,0 +1,19 @@
+:root {
+  /* primary color */
+  --midnight-green: #014e56;
+  --light-coral: #f67e7e;
+  --white: #ffffff;
+  /* secondary */
+  --rapture-blue: #79c8c7;
+  --police-blue: #2c6269;
+  --deep-jungle-green: #004047;
+  --sacramento-state-green: #012f34;
+  --dark-green: #002529;
+  /* typogrfy */
+  --main-font: "Livvic", sans-serif;
+  /* headings */
+  --large-h1: 80px;
+  --small-h1: 64px;
+  --large-h2: 48px;
+  --small-h2: 18px;
+}

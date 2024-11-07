@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Team</title>
+    <link
+      rel="preload"
+      href="./css/normalize.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="./css/base.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+  </head>
+  <body>
+    <section class="home" id="home" aria-label="home-page">
+      <div class="home-conrainer container">
+        <header class="header" aria-label="home-header">
+          <nav class="navbar" aria-label="navigation">
+            <div class="navbar-header">
+              <picture>
+                <source
+                  media="(min-width: 1004px)"
+                  srcset="./img/logo-desktop.svg"
+                  type="image/svg+xml"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./img/logo-table.svg"
+                  type="image/svg+xml"
+                />
+
+                <img src="./img/logo-phone.svg" alt="Website Logo" />
+              </picture>
+              <ul role="menubar" class="navbar-header__link-box">
+                <li>
+                  <a
+                    role="menuitem"
+                    class="link"
+                    aria-label="about-link"
+                    href="#"
+                    >about</a
+                  >
+                </li>
+                <li>
+                  <a class="link" aria-label="home-link" href="#">home</a>
+                </li>
+              </ul>
+            </div>
+            <button aria-label="contact us button" class="btn">
+              contact us
+            </button>
+            <div class="hamburger" aria-label="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </header>
+
+        <div class="home-content">
+          <div class="home-content__left">
+            <h1 class="home-content__left_title">
+              Find the best <span aria-label="talent">talent</span>
+            </h1>
+          </div>
+          <div class="home-content__right">
+            <div class="home-content__right__item"></div>
+            <p class="home-content__right_text">
+              Finding the right people and building high performing teams can be
+              hard. Most companies aren’t tapping into the abundance of global
+              talent. We’re about to change that.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-service">
+      <div class="home-service__container container">
+        <div>
+          <div class="home-service__border"></div>
+          <h2 class="home-service__paragrph">
+            Build & manage distributed teams like no one else.
+          </h2>
+        </div>
+        <div class="home-service__container__crds">
+          <div
+            aria-label="Experienced Individuals card"
+            class="home-service__container__crds__card"
+          >
+            <div class="home-service__container__crds__card-img">
+              <img
+                src="./img/home-services-img1.svg"
+                alt="Experienced Individuals"
+              />
+            </div>
+            <div class="home-service__container__crds__card-content">
+              <p class="home-service__container__crds__card-content__title">
+                Experienced Individuals
+              </p>
+              <p class="home-service__container__crds__card-content__subtitle">
+                Our network is made up of highly experienced professionals who
+                are passionate about what they do.
+              </p>
+            </div>
+          </div>
+          <div
+            aria-label="Experienced Individuals card"
+            class="home-service__container__crds__card"
+          >
+            <div class="home-service__container__crds__card-img">
+              <img src="./img/home-services-img2.svg" alt="Easy to Implement" />
+            </div>
+            <div class="home-service__container__crds__card-content">
+              <p class="home-service__container__crds__card-content__title">
+                Easy to Implement
+              </p>
+              <p class="home-service__container__crds__card-content__subtitle">
+                Our processes have been refined over years of implementation
+                meaning our teams always deliver.
+              </p>
+            </div>
+          </div>
+          <div
+            aria-label="Experienced Individuals card"
+            class="home-service__container__crds__card"
+          >
+            <div class="home-service__container__crds__card-img">
+              <img
+                src="./img/home-services-img3.svg"
+                alt="Enhanced Productivity"
+              />
+            </div>
+            <div class="home-service__container__crds__card-content">
+              <p class="home-service__container__crds__card-content__title">
+                Enhanced Productivity
+              </p>
+              <p class="home-service__container__crds__card-content__subtitle">
+                Our customized platform with in-built analytics helps you manage
+                your distributed teams.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

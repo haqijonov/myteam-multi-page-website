@@ -1,0 +1,82 @@
+@import url("root.css");
+@import url("home.css");
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+}
+
+.container {
+  width: 100%;
+  max-width: 1010px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 668px) {
+  .container {
+    width: 100%;
+    max-width: 1010px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.btn {
+  padding-top: 0.9rem;
+  padding-bottom: 1.1rem;
+  padding-left: 3.2rem;
+  padding-right: 3.3rem;
+  border: 2px solid #ffffff;
+  border-radius: 2.4rem;
+  font-family: "Livvic", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.55;
+  background-color: #014e56;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
